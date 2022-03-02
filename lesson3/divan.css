@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.main{
+
+	height: auto;
+}
+
+.baby{
+	padding-top: 5px;
+	margin: 15px;
+	height: auto;
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	font-size: 50px;
+}
+.main .baby img{
+	width: 100%;
+}

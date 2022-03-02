@@ -1,0 +1,45 @@
+*body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	text-align: center;
+}
+
+.begining{
+	font-style: italic;
+	text-align: center;
+}
+
+.maindiv{
+	width: 50%;
+	margin: auto;
+	
+}
+.box{
+	padding-left: auto;
+	height: 250px;
+	width: 40%;
+	display: inline-block;
+}
+.end{
+	text-align: center;
+	font-size: 24px;
+}
+button{
+	background: #b8b894;
+	margin: auto;
+	height: 40px;
+	width: auto;
+	border-radius: 10px;
+	display: inherit;
+}
+
+button:hover{
+	background:#d6f5f5;
+}
+
+button:active{
+	background: white;
+}
