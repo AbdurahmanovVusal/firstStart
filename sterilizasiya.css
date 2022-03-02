@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding:10px 10px 5px 10px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+.list1 li:first-child{
+	text-decoration: line-through;
+}
+
+.list1 li:nth-child(2){
+	font-weight: 700;
+}
+
+.list1 li:nth-child(3){
+	font-style: oblique;
+}
+
+.list1 li:nth-child(4){
+	text-transform: uppercase;
+}
+
+.list1 li:hover{
+	color: red;
+}
+
+
+list1 .li{
+	font-size: 24px;
+	margin: 0 0 25px 0;
+	background-image:url('..\st\qus.jpg');
+}
+
+button{
+	border-radius: 20px;
+	display: inline-flex;
+	margin: 50px;
+	background: green;
+}
+
+button:hover{
+	color: red;
+	background: white;
+}
+button:active{
+	color:blue;
+	background-color: yellow;
+}
+.text:focus{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
